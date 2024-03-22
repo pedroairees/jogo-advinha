@@ -1,4 +1,4 @@
-<h1 align="center"> FotoBlog </h1>
+<h1 align="center"> Jogo Adivinha </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
