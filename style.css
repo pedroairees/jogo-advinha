@@ -1,0 +1,104 @@
+:root{
+    font-size: 62.5%;
+    --font-dmsans: "DM Sans", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --color-blue: #34355B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+body{
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+
+button{
+    border-radius: 0px 4px 4px 0px;
+    background: var(--Iris-80, #7879F1);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .7s;
+}
+
+button:hover{
+    background: #8e8ee0;
+}
+
+/*screen 1*/
+body, input, button{
+    font-family: var(--font-dmsans);
+}
+
+main{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    width: min(42.8rem, 90%);
+    border-radius: .6rem;
+    background: #FFF;
+    box-shadow: 0px .2rem .4rem 0px rgba(0, 0, 0, 0.10);
+    margin-top: -12rem;
+    text-align: center;
+}
+
+main h1{
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--color-blue);
+    margin-bottom: 1.6rem;
+}
+
+main p{
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(52, 53, 91, 0.80);
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+}
+
+input{
+    border-radius: 4px 0px 0px 4px;
+    background: #DCE2E9;
+    width: 5rem;
+}
+
+/*Esconder as setinhas do input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+appearance: none;
+}
+
+
+/*screen 2*/
+h2{
+    color: var(--color-blue);
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 2.4rem;
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button{
+    border-radius: .4rem;
+}
